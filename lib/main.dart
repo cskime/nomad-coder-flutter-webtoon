@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 /* App : 시작점, entry point
@@ -12,7 +12,7 @@ void main() {
  * build() : draw Widget
  * Scaffold : 화면의 구성, 구조 관한 것들을 가진 Widget (e.g. top bar, body 등, container widget)
  *   - appBar : 상단 bar 영역 -> `AppBar` Widget 사용
- *   - body : 가운데 content가 보이는 영역
+ *   - body : 가운데 content가 보이는 영
  * Center : `child` Widget을 가운데 배치
  */
 
